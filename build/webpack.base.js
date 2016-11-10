@@ -11,7 +11,7 @@ module.exports = {
         home: [ './src/sass/reset.scss', './src/application/entries/home.js' ]
     },
     output: {
-        path: path.join( ROOT_PATH, '../dist/' ),
+        path: path.join( ROOT_PATH, './dist/' ),
         filename: '[name].bundle.js',
         chunkFilename: '[id].chunk.js',
         publicPath: '/dist/'
